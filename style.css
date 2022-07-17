@@ -1,0 +1,124 @@
+
+div.parent{
+   display: block;
+   height: 100%; 
+}
+
+div.bouquets.child{
+    display: block;
+    height: 60%;
+    background-image: url('Bouquets.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+div.events.child{
+    display: block;
+    height: 60%;
+    background-image: url('Event.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+div.subscribtion.child{
+    display: block;
+    height: 60%;
+    background-image: url('Subscribtion.jpeg');
+    background-size: cover;
+    background-position: center;    
+}
+
+
+body.home {
+    background-image: url('Homepage.jpeg');
+    background-size: 100% auto;    
+    background-position: 50% 45%;
+}
+
+body.contacts {
+    background-image: url('Contacts.JPG');
+    background-size: 100% auto;    
+    background-position: 50% 45%;
+    
+}
+
+
+
+.top-nav {
+    background: rgba(0, 0, 0, 0.212);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-family: sans-serif;
+}
+
+.top-nav a:hover {
+    color: #FFFFFF;
+}
+
+.heroSectionText {
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+    position: relative;
+}
+
+
+.textCenter {
+    text-align: center;
+}
+
+.normalText {
+    font-weight: normal;
+}
+
+main.category {
+    position:absolute; 
+    bottom:0px; 
+    height: 30%;
+    margin-bottom: 48px;
+}
+
+img.contactsImage {
+    width: 55%;
+    height: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1120px) {
+    body {
+        background: rgb(173, 218, 158);
+    }
+
+    .top-nav {
+        background: rgba(240, 29, 29, 0.473);
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 720px) {
+    body {
+        background: rgb(158, 162, 218);;
+    }
+
+    .top-nav {
+        background: rgba(92, 245, 15, 0.399);
+    }
+}

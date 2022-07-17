@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacts</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+        <script>
+            function confirm(){
+                alert('Thank you! We will contact you soon!')
+            }
+
+        </script>
+    </head>
+    <body class="contacts">          
+        <header>
+            <div class="top-nav" style="position: static ;"><!--Nav Bar-->
+                <a href="index.html" class="LOGO">die Blume</a>
+                <a href="page1.html">Bouquet</a>
+                <a href="page2.html">Event</a>
+                <a href="page3.html">Subcribtion</a>
+                <a href="page4.html">Contacts</a>
+            </div>    
+        </header>
+           
+        <main style="position: static;">
+                <div>
+                    <div style="display: flex; justify-content:space-around">
+                        <img class = "contactsImage" src = 'Map.png'>
+                        <div> <!--Adress-->
+                            <h2>Visit us!</h2>
+                            <h4>die Blume Sp. z o.o.</h4>
+                            <p>157 Aleja Krakowska St.</p>
+                            <p>02-673 WARSAW</p>
+                            <br>
+                            <h4>Working time</h4>
+                            <p>Tues - Sun: 9:00 a.m. - 6:00 p.m.</p>
+                            <br>
+                            <hr>
+                            <br>
+                            <form onsubmit="confirm()"; return false;>
+                                <h2>Contact us!</h2>
+                                <input type="text" placeholder="Your name" autocomplete="off" style="display: block; margin-top: 24px; margin-bottom: 24px;">
+                                <input type="email" placeholder="Your email" autocomplete="on" style="display: block; margin-top: 24px; margin-bottom: 24px;">
+                                <input type="text" placeholder="Your request or question" autocomplete="off" style="display: block; margin-top: 24px; margin-bottom: 24px; height: 100px;">
+                                <input type="submit" value="Send">
+    
+                            </form>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </main>
+    </body>
+</html>
